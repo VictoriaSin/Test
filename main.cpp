@@ -3,10 +3,9 @@
 
 using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
-    QCoreApplication a(argc, argv);
     cout << "Hello World!";
-    return a.exec();
+    return 0;
 }
 
